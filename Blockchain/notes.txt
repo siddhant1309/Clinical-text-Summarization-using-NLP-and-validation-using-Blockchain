@@ -1,0 +1,10 @@
+next js uses server side rendering
+the server takes react app, renders the entire react app itself, all js code is executed on the next server
+next server sends down completely rendered html document, makes the procedure faster than create react app.
+after sending html doc later next sends down js code as well
+first renders html doc for the user before js rendering
+
+
+server side rendering attempts to render our component on server side nad sends the html and sends it to our browser
+componentdidmount is not executed on the server side of the next js, hence this data fetching is not done
+getinitialprops is a lifecycle methods used exclusively by next js. it wants to access certain data without rendering the complete component making rendering more efficient

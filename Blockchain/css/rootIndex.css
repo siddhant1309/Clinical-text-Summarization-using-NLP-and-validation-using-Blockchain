@@ -1,0 +1,48 @@
+.centered-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    height: 100vh;
+  }
+
+  /* PatientForm.css */
+.patient-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-box {
+    border: 2px solid blue;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .submit-button {
+    background-color: blue;
+    color: white;
+  }
+
+  .dashContainer {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* Apply to all child elements within the container */
+  .dashContainer > * {
+    margin: 0;
+    padding: 0;
+  }
+  
+/* login page css */
+/* .black-button {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+.black-button:hover {
+    background-color: rgb(181, 32, 32);
+    color: white;
+  } */

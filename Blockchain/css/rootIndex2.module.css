@@ -1,0 +1,10 @@
+.blackButton {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+.blackButton:hover {
+    background-color: rgb(181, 32, 32);
+    color: white;
+  }
